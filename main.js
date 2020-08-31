@@ -5,7 +5,7 @@ $(".btncalc").click(() => {
   let wcArr = sortWordCounts(wc);
   if (Array.isArray(wcArr) && wcArr.length) {
   } else {
-    swal("Oh Snap", "Textarea Is Empty", "error");
+    swal("Oh Snap!", "Textarea Is Empty", "error");
   }
 
   printWordTable(wcArr);
