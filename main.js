@@ -19,7 +19,7 @@ $(".btncalc").click(() => {
 
 // This button reloads the Browser
 $(".btnreload").click(() => {
-  location.reload(true);
+  $("#inputarea").val("").change();
 });
 
 // This function get words from the input and removes identation and put all words in another array
