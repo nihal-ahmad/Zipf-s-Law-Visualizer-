@@ -112,7 +112,7 @@ function generateChart(wcArr) {
         labels: {
           // This more specific font property overrides the global property
           fontColor: "white",
-          boxWidth: 20,
+          boxWidth: 14,
           fontSize: 15,
           usePointStyle: true,
         },
