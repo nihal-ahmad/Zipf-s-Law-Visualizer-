@@ -4,6 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('images/Vine.jpg');
+ -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* add below command to fit background image to full screen */
+    background-size: cover;
 
 }
 
